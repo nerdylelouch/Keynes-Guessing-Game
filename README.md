@@ -22,9 +22,9 @@ The game encourages level-k thinking, where players must anticipate the strategi
 and so on...
 
 ## Future Enhancements
-Implement a graphical user interface
-Add network multiplayer support
-Introduce variations of the game with different calculation methods for the target number
+- Implement a graphical user interface
+- Add network multiplayer support
+- Introduce variations of the game with different calculation methods for the target number
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
