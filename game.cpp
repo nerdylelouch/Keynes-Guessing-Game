@@ -1,5 +1,3 @@
-// Nash Equilibrium condition would be if all players chose the same number.
-
 #include <iostream>
 #include <vector>
 #include <cmath>
@@ -173,3 +171,4 @@ int main() {
     return 0;
 }
 
+// Nash Equilibrium condition would be if all players chose the same number.
