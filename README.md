@@ -15,7 +15,7 @@ With the addition of the Streamlit UI (`app.py`), players can now engage in the 
 3. **Target Calculation**: The target number (`y`) is calculated as 80% of the average of all guesses.
 4. **Losing a Round**: The players whose guesses are furthest from the target lose 1 point.
 5. **Elimination**: Players are eliminated when their score reaches the predetermined elimination threshold (e.g., -5).
-6. **Victory**: The last player remaining with a non-negative score is the winner.
+6. **Victory**: The last player remaining is the winner.
 
 
 ## Game Theory Concepts
