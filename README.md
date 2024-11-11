@@ -8,13 +8,15 @@ This game is a strategic multiplayer contest where players must guess numbers wh
 
 With the addition of the Streamlit UI (`app.py`), players can now engage in the game interactively on the web.
 
-## Game Rules
-- Players simultaneously guess a number between 0 and 100.
-- The target number (`y`) is calculated as 80% of the average of all guesses.
-- Players whose guesses are furthest from the target lose a point.
-- Players are eliminated when their score reaches a predetermined negative value.
-- The last player remaining wins the game.
-- In the Streamlit version, when only 2 players remain, if one guesses 0 and the other guesses 100, the player who guessed 100 wins. Otherwise, typical game rules apply.
+# Game Rules
+
+1. **Initial Scores**: All players start with a score of 0.
+2. **Guessing**: Each player simultaneously guesses a number between 0 and 100.
+3. **Target Calculation**: The target number (`y`) is calculated as 80% of the average of all guesses.
+4. **Losing a Round**: The players whose guesses are furthest from the target lose 1 point.
+5. **Elimination**: Players are eliminated when their score reaches the predetermined elimination threshold (e.g., -5).
+6. **Victory**: The last player remaining with a non-negative score is the winner.
+
 
 ## Game Theory Concepts
 
@@ -40,7 +42,6 @@ To run the game with the Streamlit UI:
 2. Run the Streamlit app: `streamlit run app.py`
 
 ## Future Enhancements
-- Implement additional game modes with varying rules.
 - Add network multiplayer support.
 - Introduce a leaderboard system.
 
