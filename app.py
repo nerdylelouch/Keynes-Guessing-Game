@@ -37,6 +37,13 @@ if 'end_counter_value' not in st.session_state:
 # UI for the game
 st.title("Keynes Guessing Game")
 
+# "Did you know?" section with hyperlink at the start of the game
+st.markdown(
+    """
+    ##### [How to play?](https://github.com/nerdylelouch/Keynes-Guessing-Game?tab=readme-ov-file#game-overview)
+    """
+)
+
 if not st.session_state.game_started:
     # Limit the number of players to a maximum of 10
     st.session_state.num_players = st.number_input("Enter the number of players:", min_value=2, max_value=10, step=1)
